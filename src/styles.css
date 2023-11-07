@@ -1,8 +1,44 @@
 body{
+    background: #fbf8f9;
+}
+Navbar{
+
+}
+.body{
     background-image: url('./img/bg.png');
     background-size: cover;
 }
 .title-page {
     font-size: 80px;
-    color: #9769cc;
+    color: #6b4497;
+}
+.title{
+    color: #6b4497 !important;
+}
+.nav-link.active,
+.nav-link:focus {
+  color: #6b4497;
+}
+.nav-link{
+    color: gray;
+}
+.mindfulness{
+    width: 60px;
+    height: 60px;
+}
+.btn-outline-secondary{
+    border-color: #6b4497;
+    color: #6b4497;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary.active {
+  background-color:  #6b4497 !important;
+}
+.card{
+    /* background:  #d7d0e096; */
+    border: none;
+}
+.img-home{
+    width: 500px;
+    height: 300px;
 }

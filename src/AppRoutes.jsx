@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import { Home, OnlineTherapy, Team } from './app/pages'
+import { Details, Home, OnlineTherapy, Team } from './app/pages'
 import { Navbar } from './app/components'
 
 export const AppRoutes = () => {
@@ -9,6 +9,7 @@ export const AppRoutes = () => {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/team' element={<Team />} />
+                <Route path='/team/:uuid' element={<Details />} />
                 <Route path='/therapy' element={<OnlineTherapy />} />           
 
                 <Route path='/*' element={<Navigate to={<Home />} />} />

@@ -6,8 +6,7 @@ export const appSlice = createSlice({
         page: 1,
         people: [],
         isLoading: false,
-        gender: '',
-        country: ''
+        gender: ''
     },
     reducers: {
         // Start loading people
