@@ -48,3 +48,7 @@ body{
 .purple{
     background: #e7ddf3 !important;
 }
+.separator-line {
+    border-top: 1px solid #ccc; 
+    padding-top: 10px;
+  }

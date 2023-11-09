@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Details, Home, OnlineTherapy, Team } from './app/pages'
-import { Navbar } from './app/components'
+import { Footer, Navbar } from './app/components'
 
 export const AppRoutes = () => {
     return (
@@ -14,7 +14,7 @@ export const AppRoutes = () => {
 
                 <Route path='/*' element={<Navigate to={<Home />} />} />
             </Routes>
-
+            <Footer/>
         </div>
     )
 }

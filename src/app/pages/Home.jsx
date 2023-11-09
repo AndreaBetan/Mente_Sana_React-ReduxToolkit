@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { ModalQuestionary } from '../components/alerts';
 
 
 export const Home = () => {
@@ -42,14 +41,9 @@ export const Home = () => {
             <Link className="nav-link px-2" to={"/therapy"}>
               <button className="btn btn-outline-secondary" type="button">Conoce más</button>
             </Link>
-
           </div>
         </div>
       </div>
-      <footer className="pt-3 mt-4 text-body-secondary border-top">
-        {/* Importar Footer */}
-      </footer>
-
     </div>
   )
 }
