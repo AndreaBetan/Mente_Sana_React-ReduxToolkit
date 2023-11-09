@@ -14,9 +14,9 @@ export const Navbar = () => {
                 </div>
 
                 <ul className="nav col-12 col-md-7 mb-2 justify-content-start align-content-center mb-md-0 d-flex">
-                    <li><NavLink className="nav-link px-2 fw-light" to={"/"}>Inicio</NavLink></li>
-                    <li><NavLink className="nav-link px-2 fw-light" to={"/therapy"}>Terapia Online</NavLink></li>
-                    <li><NavLink className="nav-link px-2 fw-light" to={"/team"}>Equipo</NavLink></li>
+                    <li><NavLink className="nav-link px-2" to={"/"}>Inicio</NavLink></li>
+                    <li><NavLink className="nav-link px-2" to={"/therapy"}>Terapia Online</NavLink></li>
+                    <li><NavLink className="nav-link px-2" to={"/team"}>Equipo</NavLink></li>
                 </ul>
             </header>
         </div>

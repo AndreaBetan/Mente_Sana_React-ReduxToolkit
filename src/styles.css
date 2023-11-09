@@ -32,7 +32,6 @@ body{
   background-color:  #6b4497 !important;
 }
 .card{
-    /* background:  #d7d0e096; */
     border: none;
 }
 .img-home{
@@ -45,4 +44,7 @@ body{
 }
 .form-label{
     text-align: left;
+}
+.purple{
+    background: #e7ddf3 !important;
 }

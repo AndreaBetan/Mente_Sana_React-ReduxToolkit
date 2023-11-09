@@ -1,11 +1,11 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const CardOverview = ({ person }) => {
 
   return (
 
     <div className="card-container" style={{width: '35rem'}}>
-      <div className="card body">
+      <div className="card purple">
         <div className="row g-0">
           <div className="col-md-5">
             <img src={person.picture.large} className="card-img rounded-circle p-3" alt={person.picture}/>
