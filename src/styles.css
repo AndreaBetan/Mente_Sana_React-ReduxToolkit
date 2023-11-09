@@ -1,9 +1,6 @@
 body{
     background: #fbf8f9;
 }
-Navbar{
-
-}
 .body{
     background-image: url('./img/bg.png');
     background-size: cover;
@@ -41,4 +38,11 @@ Navbar{
 .img-home{
     width: 500px;
     height: 300px;
+}
+.btn-submit{
+    background-color:  #6b4497;
+    color: white;
+}
+.form-label{
+    text-align: left;
 }

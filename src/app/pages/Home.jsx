@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { ModalQuestionary } from '../components/alerts';
 
 
 export const Home = () => {
@@ -19,15 +20,15 @@ export const Home = () => {
           <img src="https://cdn.pixabay.com/photo/2017/01/19/09/32/communication-1991851_1280.png" className='img-home' />
         </div>
       </div>
-      <div className="row align-items-md-stretch">
+      <div className="row align-items-md-stretch ">
         <div className="col-md-6">
-          <div className="h-100 p-5 border rounded-3 ">
+          <div className="h-100 p-5 border rounded-3">
             <h3>Encuentra tu psicologo con nuestro sistema de matching</h3>
-            <p className='fw-light'>Buscar el psicólogo adecuado, puede resultar complejo. Por eso, hemos creado un sistema de matching que encuentra al mejor psicólogo/a para ti. 
-            <br />¿Cómo funciona? Tú rellenas un breve cuestionario y nuestro algoritmo, encontrará el mejor psicologo según tus necesidades.
-            <br /><strong>¡Así de rápido!</strong></p>
-            <Link className="nav-link px-2" to={"/therapy"}>
-              <button className="btn btn-outline-secondary" type="button">Inicia el cuestionario</button>
+            <p className='fw-light'>Buscar el psicólogo adecuado, puede resultar complejo. Por eso, hemos creado un sistema de matching que encuentra al mejor psicólogo/a para ti.
+              <br />¿Cómo funciona? Tú rellenas un breve cuestionario y nuestro algoritmo, encontrará el mejor psicologo según tus necesidades.
+              <br /><strong>¡Así de rápido!</strong></p>
+            <Link className="nav-link px-2" to={"/team"}>
+              <button className="btn btn-outline-secondary" type="button">Conoce nuestro equipo</button>
             </Link>
           </div>
         </div>
