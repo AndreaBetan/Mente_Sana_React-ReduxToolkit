@@ -1,6 +1,15 @@
-import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { Link,  } from 'react-router-dom';
+import { setSelectedPerson } from '../../../store'
+
 
 export const CardOverview = ({ person }) => {
+  
+  const dispatch = useDispatch();
+
+  const handleViewMore = () => {
+    dispatch(setSelectedPerson(person));
+  };
 
   return (
 
@@ -16,7 +25,7 @@ export const CardOverview = ({ person }) => {
               <p className="card-text mb-0">{person.dob.age} años</p>
               <p className="card-text">{person.location.country}, {person.location.city}</p>
               <Link to={`/team/${person.login.uuid}`}>
-                <button className="btn btn-outline-secondary rounded-pill">Ver mas</button>
+                <button className="btn btn-outline-secondary rounded-pill" onClick={handleViewMore}>Ver mas</button>
               </Link>
             </div>
           </div>

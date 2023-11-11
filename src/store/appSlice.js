@@ -7,11 +7,12 @@ export const appSlice = createSlice({
         people: [],
         isLoading: false,
         gender: '',
-        nationality: ''
+        nationality: '',
+        selectedPerson: {}
     },
     reducers: {
         // Start loading people
-        startLoadingPeople: (state, /* action */ ) => {
+        startLoadingPeople: (state, action) => {
             state.isLoading = true;
         },
         setPeople: (state, action) => {
@@ -21,10 +22,13 @@ export const appSlice = createSlice({
             state.gender = action.payload.gender
             state.nationality = action.payload.nationality
             
+        },
+        setSelectedPerson: (state, action) => {
+            state.selectedPerson = action.payload;
         }
     }
 });
 
 
 // Action creators are generated for each case reducer function
-export const { startLoadingPeople, setPeople, setPeopleGender } =  appSlice.actions;
+export const { startLoadingPeople, setPeople, setPeopleGender, setSelectedPerson } =  appSlice.actions;

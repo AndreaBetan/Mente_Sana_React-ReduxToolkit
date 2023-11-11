@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Home = () => {
   return (
-    <div className='container home'>
+    <div className='container home' id="home">
       <div className="d-flex p-5 mb-4 bg-body-tertiary rounded-3 purple">
         <div className="container-fluid">
           <h2 className='title'>Hablemos de</h2>

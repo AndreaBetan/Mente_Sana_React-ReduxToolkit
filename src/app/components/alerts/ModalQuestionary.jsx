@@ -64,7 +64,7 @@ export const ModalQuestionary = () => {
                                 />
                             </div>
                             <div className="mb-3">
-                                <label className="d-flex form-label text-start">¿Te gustaria que tu terapeuta fuera de alguna Nacionalidad en particular?</label>
+                                <label className="d-flex form-label text-start">¿Te gustaria que tu terapeuta fuera de algun país especifico?</label>
                                 <select
                                     id="nationalitySelect"
                                     name="nationality"

@@ -5,7 +5,7 @@ export const OnlineTherapy = () => {
     const videoId = 'UESj5FrnMfM';
 
     return (
-        <div classNameName="container">
+        <div className="container" id="therapy">
             <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
                 <div className="row d-flex align-items-center justify-content-center">
                     <div className="col-md-7">

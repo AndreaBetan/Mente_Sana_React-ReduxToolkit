@@ -32,7 +32,6 @@ export const ModalForms = () => {
         }
 
         if (name.trim() !== '' && email.trim() !== '') {
-            // Realizar la lógica de envío del formulario aquí
             alert("Formulario enviado con éxito!");
         }
     };

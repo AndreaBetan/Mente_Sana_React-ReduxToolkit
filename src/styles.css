@@ -1,14 +1,6 @@
 body{
     background: #fbf8f9;
 }
-.body{
-    background-image: url('./img/bg.png');
-    background-size: cover;
-}
-.title-page {
-    font-size: 80px;
-    color: #6b4497;
-}
 .title{
     color: #6b4497 !important;
 }
@@ -48,7 +40,3 @@ body{
 .purple{
     background: #e7ddf3 !important;
 }
-.separator-line {
-    border-top: 1px solid #ccc; 
-    padding-top: 10px;
-  }

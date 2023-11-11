@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { CardOverview } from "./cards";
+import { CardOverview } from "./card";
 import { getPeople } from "../../store";
 import { ModalQuestionary } from "../components/alerts";
 
@@ -10,13 +10,15 @@ import { ModalQuestionary } from "../components/alerts";
 export const Team = () => {
 
   const dispatch = useDispatch();
+  // Obtención del estado global 
   const { page, people = [], gender, nationality } = useSelector(state => state.people);
 
-
+  // Cuando el componente se monta y cuando las dependencias (gender y nationality) cambian se envía una acción al dispatcher para obtener datos de personas basados en el género y la nacionalidad.
   useEffect(() => {
     dispatch(getPeople(1, gender, nationality))
   }, [gender, nationality])
 
+  // Manejo de eventos de paginación
   const handlePrevPage = () => {
     if (page <= 1) return
     dispatch(getPeople(page - 1, gender, nationality))
@@ -26,9 +28,8 @@ export const Team = () => {
     dispatch(getPeople(page + 1, gender, nationality))
   }
 
-
   return (
-    <div className="container">
+    <div className="container" id="team">
       <div className="text-center pb-2">
         <h1 className="title"> Conoce a nuestros psicólogos y psicólogas </h1>
         <p className="fw-light">En las sesiones de Psicoterapia Online buscamos aportar un granito de arena al proceso de autoconocimiento y bienestar de las personas que acuden a consulta,

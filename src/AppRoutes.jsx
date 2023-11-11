@@ -10,11 +10,11 @@ export const AppRoutes = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/team' element={<Team />} />
                 <Route path='/team/:uuid' element={<Details />} />
-                <Route path='/therapy' element={<OnlineTherapy />} />           
+                <Route path='/therapy' element={<OnlineTherapy />} />
 
                 <Route path='/*' element={<Navigate to={<Home />} />} />
             </Routes>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

@@ -3,6 +3,6 @@ import { appSlice } from './appSlice'
 
 export const store = configureStore({
     reducer: {
-        people: appSlice.reducer
+        people: appSlice.reducer,
     },
 })

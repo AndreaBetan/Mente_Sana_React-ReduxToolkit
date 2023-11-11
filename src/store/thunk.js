@@ -13,7 +13,7 @@ export const getPeople = (page, gender, nationality) => {
             const data = resp.data.results;
       
             dispatch(setPeople({ people: data, page: page, gender: gender, nationality: nationality}));
-            
+
         } catch (error) {
             // Manejo de errores
             console.error(error);
