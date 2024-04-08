@@ -1,33 +1,38 @@
-# codechallenge-React-J
+# MENTE SANA
 
-**CODE CHALLENGE**
+Es una aplicacion web creada para encuentrar tu psicologo con un sistema de matching de acuerdo a los datos aportados en un breve cuestionario.
+Adicionalmente, ofrece información sobre la terapia onlaine y sus multiples beneficios. 
 
-REQUERIMIENTOS DEL CODE CHALLENGE:
+**INSTALACIÓN**
 
-- Desarrollar los servicios ( RESTful) en React para  conectarse al "backend" https://randomuser.me/api?results=5&noinfo
-- Desarrollar una interfaz que permita listar y ver el detalle de los usuarios.
+Asegúrate de tener Node.js y npm instalados en tu máquina. Luego, realiza los siguientes pasos:
 
-Se valorará:
+1. Clona este repositorio: git clone https://tu-repositorio.git
+2. Navega al directorio del proyecto: cd nombre-de-tu-proyecto
+3. Instala las dependencias: npm install
 
--  Patrones y estilo de desarrollo de front. Buenas prácticas, limpieza del código.
--  Maquetación del proyecto.
+**USO**
 
+npm run dev
 
-**ENTREGA**
+**CARACTERISTICAS**
 
-El tiempo de desarrollo es de una semana pero mucho mejor si nos lo puedes
-enviar antes.
+- Información sobre la terapia onlaine y sus multiples beneficios
+- Visualización de psicólogos/as.
+- Cuestionario para recomendación de psicólogos/as.
+- Detalles de cada psicólogo/a.
 
-Se debe entregar:
+**TECNOLOGÍAS UTILIZADAS**
 
-- Url con la aplicación desplegada.
-- Código fuente.
+- React
+- Redux Toolkit
+- React Router
+- JavaScript
 
+Link de despliegue: 
 
-**RECUERDA**
+https://tranquil-faun-92733e.netlify.app/
 
-- La evaluación la realizarán nuestros ninja masters, gente con mucha experiencia.
-- Según tu calificación, recibirás un diploma de ninja
 
 
 
