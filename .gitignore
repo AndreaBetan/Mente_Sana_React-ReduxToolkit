@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Dependency directories
+.pnp.*
+npm-debug.log
+
+
+# Built files
+/dist/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Mac-specific files
+.DS_Store
